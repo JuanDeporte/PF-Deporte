@@ -1,0 +1,376 @@
+// variables //
+$color_1: white;
+$font-family_1: mohave;
+$background-color_1: rgb(63, 63, 142);
+$background-color_2: rgba(39, 39, 82);
+$background-color_3: transparent;
+$border-color_1: rgb(63, 63, 142);
+
+// mixin //
+@mixin tarjeta1() {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+@mixin tarjeta2() {
+    width: 100%;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+@mixin tarjeta3() {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+@mixin TarjetaParrafo() {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: solid rgb(63, 63, 142) 5px;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+@mixin fondo() {
+    padding-top: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    max-width: 96%;
+    border: solid rgb(63, 63, 142) 5px;
+    transition-duration: 0.5s;
+
+    &:hover {
+        scale: 1.03;
+    }
+}
+
+@mixin video() {
+    width: 100%;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $font-family_1;
+}
+
+.navbar {
+    background-color: $background-color_1;
+}
+
+.nav-item {
+    padding-right: 10%;
+    padding-left: 10%;
+    transition-duration: 0.3s;
+
+    &:hover {
+        scale: 1.5;
+    }
+}
+
+/* home */
+.tit1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.img1 {
+    margin: 1%;
+    margin-bottom: 20px;
+    border: solid 7px;
+    border-color: $border-color_1;
+    border-radius: 20px;
+}
+
+.txt1 {
+    background-color: $background-color_1;
+    color: $color_1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+#fondo1 {
+    background-color: $background-color_1;
+    padding-top: 3%;
+    margin: 2%;
+    border-radius: 20px;
+    max-width: 96%;
+}
+
+.img2 {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.p2 {
+    height: 100%;
+    color: $color_1;
+}
+
+.sub1 {
+    text-align: center;
+    padding-bottom: 3%;
+    color: $color_1;
+}
+
+.sub2 {
+    text-align: center;
+    padding: 10px;
+    background-color: $background-color_1;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    color: $color_1;
+}
+
+.img3 {
+    width: 100%;
+    margin-bottom: 60px;
+    margin: 2%;
+    border: solid rgb(63, 63, 142) 5px;
+    border-radius: 10px;
+    margin-left: -1%;
+    transition-duration: 0.5s;
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+#assist1 {
+    padding-left: 5%;
+    padding-right: 4%;
+}
+
+.p3 {
+    text-align: center;
+    background-color: $background-color_1;
+    color: $color_1;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+/* cierre home */
+
+/*internacional */
+#fondo2 {
+    background: linear-gradient(rgb(0, 255, 255), rgb(0, 255, 8));
+    @include fondo()
+}
+
+.img4 {
+    width: 98%;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.img5 {
+    @include tarjeta1()
+}
+
+.p4 {
+    @include TarjetaParrafo()
+}
+
+#fondo3 {
+    background: linear-gradient(rgb(78, 78, 183), rgb(255, 255, 91));
+    @include fondo()
+}
+
+.img6 {
+    @include tarjeta2()
+}
+
+.img7 {
+    @include tarjeta1()
+}
+
+.p5 {
+    @include TarjetaParrafo()
+}
+
+#fondo4 {
+    background: linear-gradient(blue, red, white);
+    @include fondo()
+}
+
+.img8 {
+    @include tarjeta1()
+}
+
+.img9 {
+    @include tarjeta1()
+}
+
+.p6 {
+    @include TarjetaParrafo()
+}
+
+#fondo5 {
+    background: linear-gradient(blue, rgb(0, 255, 0), yellow);
+    @include fondo()
+}
+
+.img10 {
+    @include tarjeta1()
+}
+
+.img11 {
+    @include tarjeta1()
+}
+
+/* cierre internacional */
+
+/* nacional */
+#fondo6 {
+    background: linear-gradient(red, rgb(127, 68, 31));
+    @include fondo()
+}
+
+.img12 {
+    @include tarjeta1()
+}
+
+.img13 {
+    @include tarjeta1()
+}
+
+.p7 {
+    @include TarjetaParrafo()
+}
+
+#fondo7 {
+    background: linear-gradient(rgb(0, 0, 206), rgb(0, 191, 255));
+    @include fondo()
+}
+
+.img14 {
+    @include tarjeta1()
+}
+
+.img15 {
+    @include tarjeta1()
+}
+
+.p8 {
+    @include TarjetaParrafo()
+}
+
+#fondo8 {
+    background: linear-gradient(red, rgb(255, 98, 0), rgb(255, 191, 0));
+    @include fondo()
+}
+
+.img16 {
+    @include tarjeta1()
+}
+
+.img17 {
+    @include tarjeta1()
+}
+
+.p9 {
+    @include TarjetaParrafo()
+}
+
+/* cierre nacional */
+
+/* cruceros */
+#fondo9 {
+    background: linear-gradient(rgb(0, 255, 85), rgb(255, 122, 39));
+    @include fondo()
+}
+
+.img18 {
+    @include tarjeta3()
+}
+
+.vid1 {
+    @include video()
+}
+
+#fondo10 {
+    background: linear-gradient(rgb(255, 113, 215), rgb(152, 50, 255));
+    @include fondo()
+}
+
+.img19 {
+    @include tarjeta3()
+}
+
+.vid2 {
+    @include video()
+}
+
+#fondo11 {
+    background: linear-gradient(rgb(85, 79, 198), rgb(4, 117, 255));
+    @include fondo()
+}
+
+.img20 {
+    @include tarjeta3()
+}
+
+.vid3 {
+    @include video()
+}
+
+/* cierre cruceros */
+
+/* contacto */
+form {
+    width: 60%;
+    margin-left: 20%;
+    background-color: $background-color_2;
+    padding: 1%;
+    height: 100%;
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.form-group {
+    padding-top: 2%;
+}
+
+label {
+    color: $color_1;
+}
+
+textarea {
+    width: 100%;
+    height: 350px;
+    font-size: 28px;
+    background-color: $background-color_3;
+    border: none;
+}
+
+#enviar {
+    font-size: 28px;
+    border: 3px solid lightslategray;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.txtform {
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: -1%;
+    color: $color_1;
+}
+
+/* cierre contacto */

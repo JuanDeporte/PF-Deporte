@@ -1,0 +1,476 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: mohave;
+}
+
+.navbar {
+  background-color: rgb(63, 63, 142);
+}
+
+.nav-item {
+  padding-right: 10%;
+  padding-left: 10%;
+  transition-duration: 0.3s;
+}
+.nav-item:hover {
+  scale: 1.5;
+}
+
+/* home */
+.tit1 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.img1 {
+  margin: 1%;
+  margin-bottom: 20px;
+  border: solid 7px;
+  border-color: rgb(63, 63, 142);
+  border-radius: 20px;
+}
+
+.txt1 {
+  background-color: rgb(63, 63, 142);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 4%;
+}
+
+#fondo1 {
+  background-color: rgb(63, 63, 142);
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+}
+
+.img2 {
+  width: 90%;
+  height: 90%;
+  border-radius: 20px;
+}
+
+.p2 {
+  height: 100%;
+  color: white;
+}
+
+.sub1 {
+  text-align: center;
+  padding-bottom: 3%;
+  color: white;
+}
+
+.sub2 {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(63, 63, 142);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 1%;
+  border-radius: 20px;
+  color: white;
+}
+
+.img3 {
+  width: 100%;
+  margin-bottom: 60px;
+  margin: 2%;
+  border: solid rgb(63, 63, 142) 5px;
+  border-radius: 10px;
+  margin-left: -1%;
+  transition-duration: 0.5s;
+}
+.img3:hover {
+  scale: 1.1;
+}
+
+#assist1 {
+  padding-left: 5%;
+  padding-right: 4%;
+}
+
+.p3 {
+  text-align: center;
+  background-color: rgb(63, 63, 142);
+  color: white;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+/* cierre home */
+/*internacional */
+#fondo2 {
+  background: linear-gradient(rgb(0, 255, 255), rgb(0, 255, 8));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo2:hover {
+  scale: 1.03;
+}
+
+.img4 {
+  width: 98%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.img5 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.p4 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: solid rgb(63, 63, 142) 5px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+#fondo3 {
+  background: linear-gradient(rgb(78, 78, 183), rgb(255, 255, 91));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo3:hover {
+  scale: 1.03;
+}
+
+.img6 {
+  width: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.img7 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.p5 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: solid rgb(63, 63, 142) 5px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+#fondo4 {
+  background: linear-gradient(blue, red, white);
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo4:hover {
+  scale: 1.03;
+}
+
+.img8 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.img9 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.p6 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: solid rgb(63, 63, 142) 5px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+#fondo5 {
+  background: linear-gradient(blue, rgb(0, 255, 0), yellow);
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo5:hover {
+  scale: 1.03;
+}
+
+.img10 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.img11 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+/* cierre internacional */
+/* nacional */
+#fondo6 {
+  background: linear-gradient(red, rgb(127, 68, 31));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo6:hover {
+  scale: 1.03;
+}
+
+.img12 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.img13 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.p7 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: solid rgb(63, 63, 142) 5px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+#fondo7 {
+  background: linear-gradient(rgb(0, 0, 206), rgb(0, 191, 255));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo7:hover {
+  scale: 1.03;
+}
+
+.img14 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.img15 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.p8 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: solid rgb(63, 63, 142) 5px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+#fondo8 {
+  background: linear-gradient(red, rgb(255, 98, 0), rgb(255, 191, 0));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo8:hover {
+  scale: 1.03;
+}
+
+.img16 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.img17 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.p9 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: solid rgb(63, 63, 142) 5px;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+/* cierre nacional */
+/* cruceros */
+#fondo9 {
+  background: linear-gradient(rgb(0, 255, 85), rgb(255, 122, 39));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo9:hover {
+  scale: 1.03;
+}
+
+.img18 {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.vid1 {
+  width: 100%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+#fondo10 {
+  background: linear-gradient(rgb(255, 113, 215), rgb(152, 50, 255));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo10:hover {
+  scale: 1.03;
+}
+
+.img19 {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.vid2 {
+  width: 100%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+#fondo11 {
+  background: linear-gradient(rgb(85, 79, 198), rgb(4, 117, 255));
+  padding-top: 3%;
+  margin: 2%;
+  border-radius: 20px;
+  max-width: 96%;
+  border: solid rgb(63, 63, 142) 5px;
+  transition-duration: 0.5s;
+}
+#fondo11:hover {
+  scale: 1.03;
+}
+
+.img20 {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  border-radius: 30px;
+}
+
+.vid3 {
+  width: 100%;
+  padding: 2%;
+  border-radius: 40px;
+}
+
+/* cierre cruceros */
+/* contacto */
+form {
+  width: 60%;
+  margin-left: 20%;
+  background-color: rgb(39, 39, 82);
+  padding: 1%;
+  height: 100%;
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  border-radius: 20px;
+}
+
+.form-group {
+  padding-top: 2%;
+}
+
+label {
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  height: 350px;
+  font-size: 28px;
+  background-color: transparent;
+  border: none;
+}
+
+#enviar {
+  font-size: 28px;
+  border: 3px solid lightslategray;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+.txtform {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: -1%;
+  color: white;
+}
+
+/* cierre contacto *//*# sourceMappingURL=style.css.map */
